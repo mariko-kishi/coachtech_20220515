@@ -1,30 +1,44 @@
 @charset "utf-8";
 
+.headder{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+  
 .header_logo_img{
-  width: 40px;
+  width: 120px;
   height: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
   display: flex;
- 
   text-align: left;
+  display: flex;
 }
 
-li{
+ul{
   text-align: right;
-  justify-content: space-between;
 }
-.header_list {
-  display: inline-flex;
-  justify-content: space-around;
-  margin-right: 10px;
-  margin-left: 1500px;
+li{
+  display: inline;
+  justify-content: space-between;
   list-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+
 }
 
-.firstview_img{
-  width: 20px;
-  height:10px;
-  margin-right: 10px;
-  margin-left: 900px;
+
+.firstview{
+  margin-top: 50px;
+  margin-left:800px;
+  margin-right: 50px;
+}
+
+.firstview_content-ttl{
+  font-family: 'Gorditas', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.firstview_text{
+  
 }
