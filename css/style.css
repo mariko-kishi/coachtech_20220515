@@ -3,6 +3,7 @@
 .headder{
   margin-left: 70px;
   margin-right: 70px;
+  align-items: center;
 }
   
 .header_logo_img{
@@ -15,15 +16,15 @@
 
 ul{
   text-align: right;
+  text-decoration: none;
 }
 li{
   display: inline;
   justify-content: space-between;
   list-style: none;
   margin-left: 10px;
-  margin-right: 20px;
+  margin-right: 30px;
   padding-bottom: 20px;
-
 }
 
 
@@ -33,11 +34,30 @@ li{
   margin-right: 50px;
 }
 
-.firstview_content-ttl{
-  font-family: 'Gorditas', cursive;
-    font-family: 'Grape Nuts', cursive;
-    font-family: 'Noto Serif JP', serif;
+
+.firstview{
+  position: relative;
 }
+.firstview_img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 70%;
+}
+.firstview_heading{
+  top: 10%;
+  left: 20%;
+  font-size: 50%;
+}
+
+.firstview_content-ttl{
+  font-size: 50px;
+  padding-bottom: 50px;
+  
+}
+
+
+
+
 
 .firstview_text{
   
