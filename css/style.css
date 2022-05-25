@@ -1,17 +1,17 @@
 @charset "utf-8";
-
+/* headerここから */
 .headder{
   margin-left: 70px;
   margin-right: 70px;
   align-items: center;
 }
-  
 .header_logo_img{
   width: 120px;
   height: 40px;
   display: flex;
   text-align: left;
   display: flex;
+  margin-left: 100px;
 }
 
 ul{
@@ -26,8 +26,9 @@ li{
   margin-right: 30px;
   padding-bottom: 20px;
 }
-
-
+/* headerここまで */
+/* mainここから */
+/* firstview始まり */
 .firstview{
   position: relative;
   margin-top: 50px;
@@ -45,13 +46,11 @@ li{
   position: absolute;
   font-size: 50%;
   top: 10%;
-  left: 20%;
-  
+  /* left: 20%; */
 }
 
 .firstview_content-ttl{
   /* font-family: 'Gorditas', cursive; */
-  
   font-family: 'Macondo', cursive;
   font-family: 'Noto Serif JP', serif;
   font-size: 50px;
@@ -72,19 +71,25 @@ span:first-child{
 
 small{
   color:#A9A9A9 ;
-  font-size: 10px;
-  padding: 10px;
-  
+  font-size: 15px;
+  margin-bottom: 20px;
 }
-
+/* firstview終わり */
+/* News 始まり*/
+.news_content{
+  display: inline-block;
+  text-align: center;
+  margin-left: 800px;
+}
 
 h2{
 font-family: 'Grape Nuts', cursive; 
-padding: 10px;
+text-align: left;
 color: #c71585;
 }
 
 h3{
+  text-align: left;
   color: #a9a9a9;
   padding: 30px;
 }
@@ -122,26 +127,34 @@ dd:first-of-type{
   color: antiquewhite;
   font-size: 15px;
 }
+/* NEWS終わり */
+/* About始まり */
+.flex_item3{
+  display: inline-block;
+  background-color: #F5F5DC;
+  width: 100%;
+}
 
 .about_card{
-  display: block;
-  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
   height: 30%;
   margin: 60px auto;
-  background-color: #F5F5DC;
 }
 
 .about_card_img{
   display: flex;
+  justify-content: space-between;
   width: 60vw;
   height: 20vh;
-  margin-left: 60%;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-left: 80%;
 }
   
 .about_card_cat{
-  margin: 0px 0px 0px auto;
+  /* margin: 0px 0px 0px auto; */
+  display: inline;
+  text-align: center;
 }
 
 h4{
@@ -152,19 +165,18 @@ h4{
 }
 
 span:nth-of-type(2){
-  font-weight: bold;
-  color: #C0C0C0;
-  text-align: center;
-  margin-bottom: 10px;
+  color: #A9A9A9;
+  text-align: center; 
 }
 
 em{
   color: #999;
   margin-top: 30px;
   line-height: 20px;
+  text-align: center;
 }
-
-
+/* About終わり */
+/* seavice始まり */
 .service_first{
   display: block;
   width: 50%;  
@@ -180,6 +192,8 @@ h5 {
 }
 h6{
   color: #A9A9A9;
+  font: bold;
+  text: size 10px;
 }
 
 
