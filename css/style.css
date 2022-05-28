@@ -139,7 +139,7 @@ dd:first-of-type{
 .about_card{
   width: 70%;
   height: 30%; 
-  /* margin: 60px auto; */
+  margin: 60px auto;
 }
 
 .abuot_card_content{
@@ -147,7 +147,7 @@ dd:first-of-type{
 }
 
 .about_card_img{
-  width: 100%;
+  width: 30%;
 }
   
 .about_card_cat{
