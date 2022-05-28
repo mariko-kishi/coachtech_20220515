@@ -130,50 +130,48 @@ dd:first-of-type{
 /* NEWS終わり */
 /* About始まり */
 .flex_item3{
-  display: inline-block;
   background-color: #F5F5DC;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px; 
 }
 
 .about_card{
-  display: flex;
-  justify-content: space-between;
   width: 70%;
-  height: 30%;
-  margin: 60px auto;
+  height: 30%; 
+  /* margin: 60px auto; */
+}
+
+.abuot_card_content{
+  width: 50%;
 }
 
 .about_card_img{
-  display: flex;
-  justify-content: space-between;
-  width: 60vw;
-  height: 20vh;
-  margin-left: 80%;
+  width: 100%;
 }
   
 .about_card_cat{
-  /* margin: 0px 0px 0px auto; */
+  margin: 0 auto;
   display: inline;
-  text-align: center;
+  width: 70%;
 }
 
 h4{
   text-align: center;
   font-family: 'Grape Nuts',cursive;
-  margin-top: 50px;
+  padding-top: 20px;
   color: #c71585;
 }
 
 span:nth-of-type(2){
+  display: inline;
   color: #A9A9A9;
   text-align: center; 
 }
 
 em{
   color: #999;
-  margin-top: 30px;
   line-height: 20px;
-  text-align: center;
 }
 /* About終わり */
 /* seavice始まり */
